@@ -1,0 +1,38 @@
+.slider {
+  &__wrap {
+    // outline: 1px solid red;
+  }
+
+  &__set {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__item {
+    // background-color: teal;
+
+    &:not(:last-child) {
+      @media screen and (max-width: 767px) {
+        margin-bottom: 15px;
+      }
+
+      @media screen and (max-width: 1200px) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__pic {
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 350px;
+    }
+  }
+}
