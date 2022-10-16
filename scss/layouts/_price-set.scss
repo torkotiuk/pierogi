@@ -1,0 +1,47 @@
+.price-set {
+  &__product {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  &__price {
+    outline: 1px solid #a5a5a5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+}
+
+.price-set__item {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid #a5a5a5;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &__color1 {
+    background-color: rgb(255, 237, 237);
+  }
+
+  &__color2 {
+    background-color: rgb(223, 211, 211);
+  }
+
+  &__color3 {
+    background-color: rgb(234, 253, 233);
+  }
+  &__color4 {
+    background-color: rgb(213, 231, 213);
+  }
+  &__color5 {
+    background-color: rgb(240, 255, 199);
+  }
+  &__color6 {
+    background-color: rgb(252, 186, 219);
+  }
+  &__color7 {
+    background-color: rgb(221, 175, 198);
+  }
+}

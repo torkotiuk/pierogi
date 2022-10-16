@@ -143,6 +143,56 @@ header .logo {
   border-radius: 8px;
 }
 
+.price-set__product {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.price-set__price {
+  outline: 1px solid #a5a5a5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.price-set__item {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid #a5a5a5;
+}
+
+.price-set__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.price-set__item__color1 {
+  background-color: #ffeded;
+}
+
+.price-set__item__color2 {
+  background-color: #dfd3d3;
+}
+
+.price-set__item__color3 {
+  background-color: #eafde9;
+}
+
+.price-set__item__color4 {
+  background-color: #d5e7d5;
+}
+
+.price-set__item__color5 {
+  background-color: #f0ffc7;
+}
+
+.price-set__item__color6 {
+  background-color: #fcbadb;
+}
+
+.price-set__item__color7 {
+  background-color: #ddafc6;
+}
+
 footer {
   padding-top: 15px;
   padding-bottom: 15px;
