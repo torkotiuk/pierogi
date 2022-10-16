@@ -146,13 +146,12 @@ header .logo {
 .price-set__product {
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 5px;
 }
 
 .price-set__price {
   outline: 1px solid #a5a5a5;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
+  padding: 5px;
 }
 
 .price-set__item {
