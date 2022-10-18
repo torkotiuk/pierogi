@@ -11,7 +11,10 @@ html {
 body {
   margin: 0;
   height: 100%;
-  font-size: 24px;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.7;
   color: #2c2c2c;
 }
 
@@ -63,8 +66,8 @@ img {
 }
 
 .section {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section.slider {
