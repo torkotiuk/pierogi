@@ -1,0 +1,11 @@
+.faq {
+  &__question-container {
+    outline: 2px solid #bbb4b4;
+  }
+
+  &__question {
+    outline: 1px solid #bbb4b4;
+    padding: 10px;
+    font-size: 22px;
+  }
+}

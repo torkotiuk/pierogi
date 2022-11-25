@@ -188,11 +188,25 @@ header .logo {
 }
 
 .price-set__item__color6 {
-  background-color: #fcbadb;
+  background-color: #c8ffc3;
 }
 
 .price-set__item__color7 {
+  background-color: #fcbadb;
+}
+
+.price-set__item__color8 {
   background-color: #ddafc6;
+}
+
+.faq__question-container {
+  outline: 2px solid #bbb4b4;
+}
+
+.faq__question {
+  outline: 1px solid #bbb4b4;
+  padding: 10px;
+  font-size: 22px;
 }
 
 footer {
